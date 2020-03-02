@@ -1,4 +1,4 @@
-# Very short description of the package
+# Database Dictionary Management (Sync) and Entity/Repository Pattern
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/rakshitbharat/databasedictionary.svg?style=flat-square)](https://packagist.org/packages/rakshitbharat/databasedictionary)
 [![Build Status](https://img.shields.io/travis/rakshitbharat/databasedictionary/master.svg?style=flat-square)](https://travis-ci.org/rakshitbharat/databasedictionary)
@@ -17,15 +17,9 @@ composer require rakshitbharat/databasedictionary
 
 ## Usage
 
-``` php
-// Usage description here
-```
-
-### Testing
-
-``` bash
-composer test
-```
+* Make a sync of database schema with blue prints which you have made.
+* This Package will help you to maintain database without even looking on it.
+* It will take care of every column/table whatever changed in blueprints.
 
 ### Changelog
 
@@ -47,7 +41,3 @@ If you discover any security related issues, please email rakshitbharatproject@g
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
